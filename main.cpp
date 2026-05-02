@@ -1,4 +1,4 @@
-#include "notesApp.h"
+п»ї#include "notesApp.h"
 #include "database.h"
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMessageBox>
@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
     QApplication a(argc, argv);
 
     if (!Database::connect()) {
-        QMessageBox::critical(nullptr, "ошибка", "не удалось подключиться к БД");
+        QMessageBox::critical(nullptr, "РѕС€РёР±РєР°", "РЅРµ СѓРґР°Р»РѕСЃСЊ РїРѕРґРєР»СЋС‡РёС‚СЊСЃСЏ Рє Р‘Р”");
         return 1;
     }
 
